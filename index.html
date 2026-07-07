@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basil &amp; Ember | Wood-Fired Kitchen, Delhi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav>
+    <div class="container navigation">
+      <a href="index.html" class="logo"><span class="logo-basil">Basil</span> <span class="logo-ember">&amp; Ember</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="bar_icon menu-toggle-btn" id="menuToggle">☰</button>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero_content">
+        <span class="tag">Now open in Delhi</span>
+        <h1>Fresh. Fired.<br />Familiar.</h1>
+        <p>Basil &amp; Ember pairs herbs picked that morning with everything finished over an open flame — a neighborhood table built for lingering.</p>
+        <button class="explore_btn" onclick="window.location.href='menu.html'">View Menu</button>
+      </div>
+      <div class="hero_image">
+        <img src="https://picsum.photos/seed/basilember-hero/700/560" alt="A wood-fired dish at Basil & Ember" />
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="feature">
+        <div class="feature_icon">🌿</div>
+        <div>
+          <h3>Farm-Fresh Ingredients</h3>
+          <p>Sourced daily from growers within 60km of our kitchen.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature_icon">🔥</div>
+        <div>
+          <h3>Wood-Fired Kitchen</h3>
+          <p>Every dish passes over live flame before it reaches your table.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <div class="feature_icon">🍽️</div>
+        <div>
+          <h3>Neighborhood Table</h3>
+          <p>A room built for long dinners, not rushed ones.</p>
+        </div>
+      </div>
+    </section>
+
+    <hr class="divider" />
+
+    <section class="menu">
+      <div class="section_heading">
+        <span class="tag">Crowd Favorites</span>
+        <h2>From the Kitchen</h2>
+      </div>
+      <div class="grid">
+        <img class="grid-image item1" src="https://picsum.photos/seed/be-1/500/500" alt="Signature dish" />
+        <img class="grid-image item2" src="https://picsum.photos/seed/be-2/300/500" alt="Wood-fired flatbread" />
+        <img class="grid-image item3" src="https://picsum.photos/seed/be-3/250/240" alt="Fresh salad" />
+        <img class="grid-image item4" src="https://picsum.photos/seed/be-4/300/240" alt="Grilled skewers" />
+        <img class="grid-image item5" src="https://picsum.photos/seed/be-5/300/240" alt="Ember roasted vegetables" />
+        <img class="grid-image item6" src="https://picsum.photos/seed/be-6/300/240" alt="House dessert" />
+        <img class="grid-image item7" src="https://picsum.photos/seed/be-7/250/500" alt="Signature cocktail" />
+      </div>
+      <button class="explore_btn" onclick="window.location.href='menu.html'">See Full Menu</button>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container footer_container">
+      <div class="link_lists">
+        <h3>Explore</h3>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="reservation.html">Reservations</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="link_lists">
+        <h3>Visit</h3>
+        <ul>
+          <li>221 Ember Lane, Delhi</li>
+          <li>Tue–Sun, 12pm–11pm</li>
+          <li>+91 98765 43210</li>
+        </ul>
+      </div>
+      <div class="news_letter">
+        <h3>Stay in the loop</h3>
+        <input type="email" id="newsletterEmail" placeholder="Your email" />
+        <br />
+        <button class="explore_btn" id="newsletterBtn">Subscribe</button>
+      </div>
+    </div>
+    <div class="container icon_container">
+      <span>📷</span><span>📘</span><span>🐦</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
